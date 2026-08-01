@@ -12,6 +12,7 @@ directives and Docker's `--memory`/`--cpus` flags both write to under the
 hood. Understanding this layer directly makes both of those tools
 transparent rather than magic.
 
+
 ## Core concept
 
 A cgroup is just a directory under `/sys/fs/cgroup/`. Creating one is
