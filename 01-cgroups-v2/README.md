@@ -22,6 +22,7 @@ Writing a process's PID into `cgroup.procs` puts that process "in the
 bucket," and every limit written into that bucket's files applies to it
 from that moment on.
 
+
 ## Demo 1 — Hard limit (`memory-hard-limit-demo.sh`)
 
 Sets `memory.max` (a hard ceiling) and proves the kernel enforces it with
