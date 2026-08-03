@@ -33,6 +33,7 @@ cleanup() {
     echo "[*] Cleanup complete."
 }
 
+
 if [[ "${1:-}" == "cleanup" ]]; then
     cleanup
     exit 0
