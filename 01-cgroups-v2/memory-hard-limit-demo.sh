@@ -39,6 +39,7 @@ if [[ "${1:-}" == "cleanup" ]]; then
     exit 0
 fi
 
+
 echo "=== Step 1: Create the cgroup (a plain mkdir under /sys/fs/cgroup) ==="
 mkdir "$CGROUP_PATH"
 echo "[+] Kernel auto-populated control files:"
