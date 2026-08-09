@@ -43,6 +43,7 @@ fi
 echo "=== Step 1: Create the cgroup (a plain mkdir under /sys/fs/cgroup) ==="
 mkdir "$CGROUP_PATH"
 echo "[+] Kernel auto-populated control files:"
+
 ls "$CGROUP_PATH" | head -5
 echo "    ... ($(ls "$CGROUP_PATH" | wc -l) files total)"
 
