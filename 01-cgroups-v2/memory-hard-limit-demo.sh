@@ -51,6 +51,7 @@ echo "    ... ($(ls "$CGROUP_PATH" | wc -l) files total)"
 echo
 echo "=== Step 2: Set the hard memory limit ==="
 echo "$MEMORY_LIMIT" > "$CGROUP_PATH/memory.max"
+
 echo "[+] memory.max set to: $(cat "$CGROUP_PATH/memory.max") bytes ($MEMORY_LIMIT)"
 
 echo
