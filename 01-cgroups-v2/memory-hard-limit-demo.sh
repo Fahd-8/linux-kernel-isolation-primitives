@@ -82,5 +82,6 @@ cat "$CGROUP_PATH/memory.events"
 echo
 echo "    'oom_kill' above should be >= 1, proving the kernel enforced the limit."
 
+
 echo
 echo "=== Done. Run 'sudo ./memory-hard-limit-demo.sh cleanup' to remove the cgroup. ==="
